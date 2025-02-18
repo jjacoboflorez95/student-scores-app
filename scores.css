@@ -1,0 +1,80 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+	background-color: rgb(248, 245, 220);
+	margin: 0 auto;
+	width: 900px;
+	/*border: 3px solid cornflowerblue;*/
+	padding: 10px 20px;
+}
+main {
+	/*overflow: hidden;*/
+	margin-top: 120px;
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+	margin-bottom: 20px;
+}
+/*section {
+	float: left;
+}
+aside {
+	float: right;
+	margin-top: 1em;
+}*/
+aside {
+	margin-top: 30px;
+}
+h1 {
+	font-size: 200%;
+	color: black;
+}
+div {
+	margin-bottom: 1em;
+}
+label {
+	display: inline-block;
+	width: 7em;
+	font-size: 115%;
+}
+input {
+	margin-right: 0.5em;
+}
+span {
+	color: red;
+}
+
+/**/
+input[type="text"],
+textarea {
+	margin-top: 3px;
+	width: 20.5em;
+	padding: 5px 10px;
+	font-size: 105%;
+}
+textarea {
+	width: 90%;
+	font-size: 118%;
+}
+input[type="button"] {
+	width: 22em;
+	color: white;
+	border: 1px solid rgb(98, 216, 87);
+	background-color: rgba(23, 104, 12, 0.912);
+	border-radius: 10px;
+	padding: 8px 0px;
+	letter-spacing: 1px;
+	font-size: 105%;
+}
+#clear_sort_button {
+	text-align: center;
+}
+#clear_button {
+	margin-top: 11px;
+	margin-bottom: 10px;
+}
+small {
+	text-align: center;
+	font-size: 90%;
+	color: rgb(88, 88, 88);
+}
